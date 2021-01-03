@@ -55,7 +55,7 @@
 	}
 	"3"
 	{
-		"chat"		"{lightgreen}This server is modded! DL the modpack at: "
+		"chat"		"{lightgreen}This server is modded! DL the modpack at: https://github.com/eyeonus/openDLR"
 	}
 	"4"
 	{

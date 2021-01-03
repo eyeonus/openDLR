@@ -1,0 +1,981 @@
+//SourceMod Batch Compiler
+// by the SourceMod Dev Team
+
+
+//// #NOTFOUND force_tank_health.decompiled.sp
+// 
+// #NOTFOUND force_tank_health.decompiled.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.08 sec
+// ----------------------------------------
+
+//// #OVERLAP 'L4D2 Hulking Tank.smx' l4d_tankrock.sp
+// 
+// #OVERLAP 'L4D2 Hulking Tank.smx' l4d_tankrock.sp(3) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// #OVERLAP 'L4D2 Hulking Tank.smx' tankroar1.2.2.sp
+// 
+// #OVERLAP 'L4D2 Hulking Tank.smx' tankroar1.2.2.sp(3) : fatal error 183: cannot read from file: "sdktools"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.08 sec
+// ----------------------------------------
+
+//// #OVERLAP 'l4d2_movablemachinegun_sdkhooks.smx' l4d_machine.sp
+// 
+// #OVERLAP 'l4d2_movablemachinegun_sdkhooks.smx' l4d_machine.sp(2) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.08 sec
+// ----------------------------------------
+
+//// #OVERLAP 'l4d_gear_transfer.smx' l4d_grenade_transfer.sp
+// 
+// #OVERLAP 'l4d_gear_transfer.smx' l4d_grenade_transfer.sp(10) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// #OVERLAP 'relentless_witch.smx' l4d_evil_witch.sp
+// 
+// #OVERLAP 'relentless_witch.smx' l4d_evil_witch.sp(3) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// #OVERLAP 'stuck.smx' l4d2unstick.sp
+// 
+// #OVERLAP 'stuck.smx' l4d2unstick.sp(3) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// acs - Automatic Campaign Switcher v2.3.0.sp
+// 
+// acs - Automatic Campaign Switcher v2.3.0.sp(79) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.05 sec
+// ----------------------------------------
+
+//// advertisements.sp
+// 
+// advertisements.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// AI_HardSI.sp
+// 
+// AI_HardSI.sp(3) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// all4dead2.sp
+// 
+// all4dead2.sp(31) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// autolaser.sp
+// 
+// autolaser.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.08 sec
+// ----------------------------------------
+
+//// chat_logger.sp
+// 
+// chat_logger.sp(2) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// command_buffer.sp
+// 
+// command_buffer.sp(47) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// dhooks-test.sp
+// 
+// dhooks-test.sp(3) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.08 sec
+// ----------------------------------------
+
+//// espawndisabler.sp
+// 
+// espawndisabler.sp(4) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// ghostfly.sp
+// 
+// ghostfly.sp(3) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.08 sec
+// ----------------------------------------
+
+//// give ammo on pickup.sp
+// 
+// give ammo on pickup.sp(9) : error 017: undefined symbol "name"
+// give ammo on pickup.sp(14) : error 010: invalid function or declaration
+// give ammo on pickup.sp(18) : error 017: undefined symbol "HookEvent"
+// give ammo on pickup.sp(19) : error 017: undefined symbol "RegAdminCmd"
+// give ammo on pickup.sp(24) : error 017: undefined symbol "PrintToChat"
+// give ammo on pickup.sp(25) : error 017: undefined symbol "CreateTimer"
+// give ammo on pickup.sp(26) : error 017: undefined symbol "Plugin_Continue"
+// give ammo on pickup.sp(26) : error 130: cannot coerce functions to values
+// give ammo on pickup.sp(31) : error 017: undefined symbol "GetClientOfUserId"
+// give ammo on pickup.sp(32) : error 017: undefined symbol "CreateTimer"
+// give ammo on pickup.sp(33) : error 017: undefined symbol "Plugin_Continue"
+// give ammo on pickup.sp(33) : error 130: cannot coerce functions to values
+// give ammo on pickup.sp(38) : error 017: undefined symbol "GetCommandFlags"
+// give ammo on pickup.sp(39) : error 017: undefined symbol "SetCommandFlags"
+// give ammo on pickup.sp(40) : error 017: undefined symbol "FakeClientCommand"
+// give ammo on pickup.sp(41) : error 017: undefined symbol "SetCommandFlags"
+// give ammo on pickup.sp(42) : error 017: undefined symbol "Plugin_Continue"
+// give ammo on pickup.sp(42) : error 130: cannot coerce functions to values
+// 
+// 18 Errors.
+//
+// Compilation Time: 0.08 sec
+// ----------------------------------------
+
+//// GrabLasersight.sp
+// 
+// GrabLasersight.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.08 sec
+// ----------------------------------------
+
+//// l4d(2)_powerups_rush.sp
+// 
+// l4d(2)_powerups_rush.sp(75) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// L4D2 Bonus Healing.sp
+// 
+// L4D2 Bonus Healing.sp(4) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// L4D2 Charger Jump.sp
+// 
+// L4D2 Charger Jump.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// L4D2 HP Regeneration.sp
+// 
+// L4D2 HP Regeneration.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// L4D2 Hulking Tank.sp
+// 
+// L4D2 Hulking Tank.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// L4D2 Vicious Infected.sp
+// 
+// L4D2 Vicious Infected.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.05 sec
+// ----------------------------------------
+
+//// l4d2unscrambler.sp
+// 
+// l4d2unscrambler.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_boomerbitchslap.sp
+// 
+// l4d2_boomerbitchslap.sp(2) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_bulldozercertificate.sp
+// 
+// l4d2_bulldozercertificate.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_bwa_teamspanel.sp
+// 
+// l4d2_bwa_teamspanel.sp(9) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_changelevel.sp
+// 
+// l4d2_changelevel.sp(21) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_charger_power.sp
+// 
+// l4d2_charger_power.sp(10) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.08 sec
+// ----------------------------------------
+
+//// l4d2_charger_steering.sp
+// 
+// l4d2_charger_steering.sp(81) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_custom_commands.sp
+// 
+// l4d2_custom_commands.sp(30) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_explosive_cars.sp
+// 
+// l4d2_explosive_cars.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_fireworks.sp
+// 
+// l4d2_fireworks.sp(103) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_guncontrol.sp
+// 
+// l4d2_guncontrol.sp(2) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_HiddenAbilityHints.sp
+// 
+// l4d2_HiddenAbilityHints.sp(3) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_infected_release.sp
+// 
+// l4d2_infected_release.sp(3) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_itemgiver.sp
+// 
+// l4d2_itemgiver.sp(2) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_jockey_jump.sp
+// 
+// l4d2_jockey_jump.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_laser_spawn.sp
+// 
+// l4d2_laser_spawn.sp(45) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_mission_manager.sp
+// 
+// l4d2_mission_manager.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_mm_adminmenu.sp
+// 
+// l4d2_mm_adminmenu.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.08 sec
+// ----------------------------------------
+
+//// l4d2_movablemachinegun_sdkhooks.sp
+// 
+// l4d2_movablemachinegun_sdkhooks.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_routing.sp
+// 
+// l4d2_routing.sp(2) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_spawnuncommons.sp
+// 
+// l4d2_spawnuncommons.sp(2) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_spawn_props_2_0.sp
+// 
+// l4d2_spawn_props_2_0.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_specialammo.sp
+// 
+// l4d2_specialammo.sp(2) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_survivorai_triggerfix.sp
+// 
+// l4d2_survivorai_triggerfix.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.08 sec
+// ----------------------------------------
+
+//// l4d2_vomitjar_shove.sp
+// 
+// l4d2_vomitjar_shove.sp(61) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_vote_manager3.sp
+// 
+// l4d2_vote_manager3.sp(2) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_WeaponUnlock.sp
+// 
+// l4d2_WeaponUnlock.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d2_weapon_kits.sp
+// 
+// l4d2_weapon_kits.sp(6) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.05 sec
+// ----------------------------------------
+
+//// l4d2_zcs.sp
+// 
+// l4d2_zcs.sp(38) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// L4DSafeRoomHunterGlitch.sp
+// 
+// L4DSafeRoomHunterGlitch.sp(17) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4dunreservelobby.sp
+// 
+// l4dunreservelobby.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d_cloud_damage v2.22-ernecio-sm1.10.sp
+// 
+// l4d_cloud_damage v2.22-ernecio-sm1.10.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d_extinguisher.sp
+// 
+// l4d_extinguisher.sp(158) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d_gear_transfer.sp
+// 
+// l4d_gear_transfer.sp(303) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d_gun_cabinet.sp
+// 
+// l4d_gun_cabinet.sp(56) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.08 sec
+// ----------------------------------------
+
+//// l4d_incapped_weapons.sp
+// 
+// l4d_incapped_weapons.sp(61) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d_info_editor.sp
+// 
+// l4d_info_editor.sp(110) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d_info_editor_weapons.sp
+// 
+// l4d_info_editor_weapons.sp(46) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d_info_test.sp
+// 
+// l4d_info_test.sp(46) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.08 sec
+// ----------------------------------------
+
+//// l4d_ledge_release.sp
+// 
+// l4d_ledge_release.sp(4) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d_mini_gun_spawner.sp
+// 
+// l4d_mini_gun_spawner.sp(52) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d_molotov_shove.sp
+// 
+// l4d_molotov_shove.sp(80) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d_multiple_equipment_all.sp
+// 
+// l4d_multiple_equipment_all.sp(4) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d_pipebomb_shove.sp
+// 
+// l4d_pipebomb_shove.sp(63) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d_play_as_witch.sp
+// 
+// l4d_play_as_witch.sp(2) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d_selfhelp_en.sp
+// 
+// l4d_selfhelp_en.sp(2) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d_sm_respawn.sp
+// 
+// l4d_sm_respawn.sp(4) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d_splash_damage.sp
+// 
+// l4d_splash_damage.sp(2) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// l4d_survivorai_pouncedfix.sp
+// 
+// l4d_survivorai_pouncedfix.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// left4dhooks.sp
+// 
+// left4dhooks.sp(335) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// left4dhooks_test.sp
+// 
+// left4dhooks_test.sp(97) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// lerptracker.sp
+// 
+// lerptracker.sp(2) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// missile_l4d.sp
+// 
+// missile_l4d.sp(2) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// NoMercyElevatorFix.sp
+// 
+// NoMercyElevatorFix.sp(30) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.08 sec
+// ----------------------------------------
+
+//// pluginmanager.sp
+// 
+// pluginmanager.sp(2) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.08 sec
+// ----------------------------------------
+
+//// recovery_l4d.sp
+// 
+// recovery_l4d.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// relentless_witch.sp
+// 
+// relentless_witch.sp(2) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// RSBS.sp
+// 
+// RSBS.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// simple-chatcolors.sp
+// 
+// simple-chatcolors.sp(37) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.05 sec
+// ----------------------------------------
+
+//// SimpleAFKManager.sp
+// 
+// SimpleAFKManager.sp(3) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// skeetannounce.sp
+// 
+// skeetannounce.sp(3) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// stuck.sp
+// 
+// stuck.sp(3) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.08 sec
+// ----------------------------------------
+
+//// Survivor Talents.sp
+// 
+// Survivor Talents.sp(22) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// takeover.sp
+// 
+// takeover.sp(20) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.05 sec
+// ----------------------------------------
+
+//// TooLateToBan.sp
+// 
+// TooLateToBan.sp(39) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// votekickautoban.sp
+// 
+// votekickautoban.sp(1) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// WebShortcuts.sp
+// 
+// WebShortcuts.sp(2) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// [L4D2] Bots PickUp T3.sp
+// 
+// [L4D2] Bots PickUp T3.sp(6) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// [L4D2] Defib using bots.sp
+// 
+// [L4D2] Defib using bots.sp(2) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.08 sec
+// ----------------------------------------
+
+//// [L4D2] MeleeInTheSafeRoom.sp
+// 
+// [L4D2] MeleeInTheSafeRoom.sp(3) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+//// [L4D] Health.sp
+// 
+// [L4D] Health.sp(37) : fatal error 183: cannot read from file: "sourcemod"
+// 
+// Compilation aborted.
+// 1 Error.
+//
+// Compilation Time: 0.06 sec
+// ----------------------------------------
+
+Press enter to exit ...
