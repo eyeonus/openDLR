@@ -1,0 +1,112 @@
+// Advertisements 2.1
+// by Tsunami
+//
+// Types
+// -----
+// center: Center message
+// chat: Chat message
+// hint: Hint message
+// menu: Menu message
+// top: Top message
+//
+// Flags (optional)
+// -----
+// Accepts flags of admins that will not see the advertisement.
+// When omitted everyone will see the advertisement.
+// When left empty only admins will see the advertisement.
+
+//"Advertisements"
+//{
+//    "1"
+//    {
+//        "center"		"www.domain.com"
+//    }
+//    "2"
+//    {
+//        "center"		"contact@domain.com"
+//        "hint"			"contact@domain.com"
+//   }
+//    "3"
+//    {
+//        "menu"			"Next map is {nextmap} in {timeleft} minutes."
+//        "flags"			"cft"
+//    }
+//    "4"
+//    {
+//        "chat"			"{green}Current {lightgreen}Map: {default}{currentmap}"
+//        "flags"			"z"
+//    }
+//    "5"
+//    {
+//        "top"				"{orange}Admins: friendly fire is {mp_friendlyfire}."
+//        "flags"			""
+//    }
+//}
+
+"Advertisements"
+{
+	"1"
+	{
+		"chat"		"{teamcolorcolor}Welcome to a [DLR] OpenDLR Server , Type !kit in chat box for weapon kits"
+	}
+	"2"
+	{
+		"chat"		"{lightgreen}Server Owned by <owner>, Complaints should be made to <owner>"
+	}
+	"3"
+	{
+		"chat"		"{lightgreen}This server is modded! DL the modpack at: "
+	}
+	"4"
+	{
+		"chat"		"{lightgreen}To shoot missles as survivors : Crouch + Use + Fire"
+	}
+	"5"
+	{
+		"chat"		"{teamcolor}If you get stuck anywhere on map, then type: !stuck in the chat menu to free yourself."
+	}
+	"6"
+	{
+		"chat"		"{lightgreen}To shoot missiles as survivors : Crouch + Use + Fire"
+	}
+	"7"
+	{
+		"chat"		"{lightgreen}Infected can fly in ghost form by holding down R"
+	}
+	"8"
+	{
+		"chat"		"{lightgreen}While down hold the CROUCH key(using piils, shot or medkit) to get yourself back up"
+	}
+	"9"
+	{
+		"chat"		"{lightgreen}Jockey can Jump with victims, if put in a prison type !switchmenu as a survivor and go spectate to let the bot teleport out at catch up to the party"
+	}
+	"10"
+	{
+		"chat"		"{lightgreen}As a Boomer can crouch to go faster, puke driveby, Bitchslap people off their feet, or space to jump and explode"
+	}
+	"11"
+	{
+		"chat"		"{lightgreen}Spitters have acid claws, and slow spit"
+	}
+	"12"
+	{
+		"chat"		"{lightgreen}Smokers can move with a victim, and their cloud does damage"
+	}
+	"13"
+	{
+		"chat"		"{lightgreen}Right-click to let go of a victim if crouching as a hunter you can repounce the next victim"
+	}
+	"14"
+	{
+		"chat"		"{lightgreen} Chargers can jump with victims, pick victims up off the ground, and turn. Charge in to movable objects like cars and garbage cans can be charged into survivors to endcap them!"
+	}
+	"15"
+	{
+		"chat"		"{green}Cars can explode if they take 2500 damage! Beware explosions hurt!"
+	}
+	"16"
+	{
+		"chat"		"{green}All infected have increased health, and claw attack damages, but if you right-click while holding someone you will let them go!"
+	}
+}
