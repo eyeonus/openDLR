@@ -47,11 +47,11 @@
 {
 	"1"
 	{
-		"chat"		"{teamcolorcolor}Welcome to a [DLR] OpenDLR Server , Type !kit in chat box for weapon kits"
+		"chat"		"{teamcolor}Welcome to a [DLR] OpenDLR Server , Type !kit in chat box for weapon kits"
 	}
 	"2"
 	{
-		"chat"		"{lightgreen}Server Owned by <owner>, Complaints should be made to <owner>"
+		"chat"		"{lightgreen}Server Owned by eyeonus, Complaints should be made to eyeonus"
 	}
 	"3"
 	{
@@ -75,7 +75,7 @@
 	}
 	"8"
 	{
-		"chat"		"{lightgreen}While down hold the CROUCH key(using piils, shot or medkit) to get yourself back up"
+		"chat"		"{lightgreen}While down hold the CROUCH key (using piils, shot or medkit) to get yourself back up"
 	}
 	"9"
 	{
