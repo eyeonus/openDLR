@@ -45,7 +45,7 @@ static const String:ClassTips[][] =
 static const Float:MENU_OPEN_TIME = 99999.0;
 
 // What formatting string to use when printing to the chatbox
-#define PRINT_PREFIX 	"\x05[DLR] \x01"
+#define PRINT_PREFIX 	"\x05[Talents] \x01"
 
 
 /// SOUNDS AND OTHER
