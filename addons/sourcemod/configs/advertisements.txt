@@ -45,13 +45,17 @@
 
 "Advertisements"
 {
+	"0"
+	{
+		"chat"		"{lightgreen}Welcome to an {default}openDLR {lightgreen}server!"
+	}
 	"1"
 	{
-		"chat"		"{teamcolor}Welcome to a [DLR] OpenDLR Server , Type !kit in chat box for weapon kits"
+		"chat"		"{lightgreen}Type !kit in chat box for weapon kits."
 	}
 	"2"
 	{
-		"chat"		"{lightgreen}Server Owned by eyeonus, Complaints should be made to eyeonus"
+		"chat"		"{lightgreen}Server Owned by eyeonus, Complaints should be made to eyeonus."
 	}
 	"3"
 	{
