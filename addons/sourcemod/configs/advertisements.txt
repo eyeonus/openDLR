@@ -50,7 +50,7 @@
 	{
 		"chat"		"
 {default}Welcome to an {yellow}openDLR{default} server!\n
-{default}Server owned by {green}OWNER NAME GOES HERE{default}.\n
+{default}Server owned by {green}eyeonus{default}.\n
 {default}This server is {yellow}modded{default}! DL the modpack at: \n
 {lightgreen}http://www.opendlr.tk/"
 	}
@@ -76,7 +76,7 @@
 		"chat"		"
 {yellow}Boomer{default} can move and puke, crouch superspeed, and rocket boom.\n
 {yellow}Chargers{default} can turn, jump, and ram cars, while charging.\n
-{yellow}Jockey{default} can Jump with victims and blinds them.\n
+{yellow}Jockey{default} can Jump with victims and blind them.\n
 {yellow}Smokers{default} can drag victims, and clouds cause choking damage.\n
 {yellow}Spitters{default} can't be hurt when spitting and have acid claws {yellow}(DPS){default}."
 	}
