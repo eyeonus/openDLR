@@ -42,75 +42,78 @@
 //        "flags"			""
 //    }
 //}
-
+// NOTE: L4D amd L4D2 available colors: {default} {lightgreen} {green} {yellow} {teamcolor}
+//		 {teamcolor} must be at the beginning of a message and the entire message will be that color, period.
 "Advertisements"
 {
 	"1"
 	{
-		"chat"		"{lightgreen}Welcome to an {teamcolor}openDLR {lightgreen}server!"
+		"chat"		"
+{default}Welcome to an {yellow}openDLR{default} server!\n
+{default}Server owned by {green}OWNER NAME GOES HERE{default}.\n
+{default}This server is {yellow}modded{default}! DL the modpack at: \n
+{lightgreen}http://www.opendlr.tk/"
 	}
 	"2"
 	{
-		"chat"		"{lightgreen}Type !kit in chat box for weapon kits."
+		"chat"		"
+{green}Survivor{default} tips:\n
+{default}Type {green}!kit{default} in chat box for weapon kits.\n
+{default}Type {green}!stuck{default} if stuck in something unable to move.\n
+{default}To shoot missiles: {green}Crouch + Use + Fire\n
+{default}Use healing item to pick yourself up when incap: {green}Crouch"
 	}
 	"3"
 	{
-		"chat"		"{lightgreen}Server Owned by eyeonus, Complaints should be made to eyeonus."
+		"chat"		"
+{yellow}Infected{default} tips:\n
+{default}All {yellow}infected{default} have increased health.\n
+{yellow}Infected{default} can fly when ghosts with: {yellow}Reload\n
+{yellow}Smoker{default}, {yellow}Charger{default}, and {yellow}Hunter{default} can release {green}victims{default} with: {yellow}Melee"
 	}
 	"4"
 	{
-		"chat"		"{lightgreen}This server is modded! DL the modpack at: https://github.com/eyeonus/openDLR"
+		"chat"		"
+{yellow}Boomer{default} can move and puke, crouch superspeed, and rocket boom.\n
+{yellow}Chargers{default} can turn, jump, and ram cars, while charging.\n
+{yellow}Jockey{default} can Jump with victims and blinds them.\n
+{yellow}Smokers{default} can drag victims, and clouds cause choking damage.\n
+{yellow}Spitters{default} can't be hurt when spitting and have acid claws {yellow}(DPS){default}."
 	}
 	"5"
 	{
-		"chat"		"{lightgreen}To shoot missles as survivors : Crouch + Use + Fire"
 	}
 	"6"
 	{
-		"chat"		"{teamcolor}If you get stuck anywhere on map, then type: !stuck in the chat menu to free yourself."
 	}
 	"7"
 	{
-		"chat"		"{lightgreen}To shoot missiles as survivors : Crouch + Use + Fire"
 	}
 	"8"
 	{
-		"chat"		"{lightgreen}Infected can fly in ghost form by holding down R"
 	}
 	"9"
 	{
-		"chat"		"{lightgreen}While down hold the CROUCH key (using piils, shot or medkit) to get yourself back up"
 	}
 	"10"
 	{
-		"chat"		"{lightgreen}Jockey can Jump with victims, if put in a prison type !switchmenu as a survivor and go spectate to let the bot teleport out at catch up to the party"
 	}
 	"11"
 	{
-		"chat"		"{lightgreen}As a Boomer can crouch to go faster, puke driveby, Bitchslap people off their feet, or space to jump and explode"
 	}
 	"12"
 	{
-		"chat"		"{lightgreen}Spitters have acid claws, and slow spit"
 	}
 	"13"
 	{
-		"chat"		"{lightgreen}Smokers can move with a victim, and their cloud does damage"
 	}
 	"14"
 	{
-		"chat"		"{lightgreen}Right-click to let go of a victim if crouching as a hunter you can repounce the next victim"
 	}
 	"15"
 	{
-		"chat"		"{lightgreen} Chargers can jump with victims, pick victims up off the ground, and turn. Charge in to movable objects like cars and garbage cans can be charged into survivors to endcap them!"
 	}
 	"16"
 	{
-		"chat"		"{green}Cars can explode if they take 2500 damage! Beware explosions hurt!"
-	}
-	"17"
-	{
-		"chat"		"{green}All infected have increased health, and claw attack damages, but if you right-click while holding someone you will let them go!"
 	}
 }
