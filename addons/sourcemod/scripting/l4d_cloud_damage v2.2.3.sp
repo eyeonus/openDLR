@@ -4,7 +4,7 @@
 #pragma semicolon 1
 #pragma newdecls required
 
-#define PLUGIN_VERSION 				"2.22"
+#define PLUGIN_VERSION 				"2.2.3"
 #define CVAR_FLAGS 					FCVAR_NOTIFY
 #define CVAR_FLAGS_PLUGIN_VERSION 	FCVAR_NOTIFY|FCVAR_DONTRECORD|FCVAR_SPONLY
 
@@ -16,6 +16,7 @@ Handle CloudEnabled 			= INVALID_HANDLE;
 Handle CloudDuration 			= INVALID_HANDLE;
 Handle CloudRadius 				= INVALID_HANDLE;
 Handle CloudDamage 				= INVALID_HANDLE;
+Handle CloudDamageFrequency		= INVALID_HANDLE;
 Handle CloudShake 				= INVALID_HANDLE;
 Handle CloudBlocksRevive 		= INVALID_HANDLE;
 Handle SoundPath 				= INVALID_HANDLE;
@@ -34,7 +35,7 @@ int propinfoghost;
 public Plugin myinfo = 
 {
 	name 		= "[L4D1 AND L4D2] Cloud Damage",
-	author 		= "AtomicStryker",
+	author 		= "AtomicStryker, ernecio, eyeonus",
 	description = "The cloud of smoke created when a Smoker dies causes damage to the survivors",
 	version 	= PLUGIN_VERSION,
 	url 		= "http://forums.alliedmods.net/showthread.php?t=96665"
@@ -44,17 +45,18 @@ public void OnPluginStart()
 {
 	CreateConVar("l4d_cloud_damage_version", PLUGIN_VERSION, " Version of L4D Cloud Damage on this server ", CVAR_FLAGS_PLUGIN_VERSION);
 	
-	CloudEnabled 			= CreateConVar("l4d_cloud_damage_enabled", 		"1", 									" Enable/Disable the Cloud Damage plugin ", CVAR_FLAGS);
-	CloudDamage 			= CreateConVar("l4d_cloud_damage_damage", 		"2.5", 									" Amount of damage the cloud deals every half second", CVAR_FLAGS);
-	CloudDuration 			= CreateConVar("l4d_cloud_damage_time", 		"10.0", 								"How long the cloud damage persists in seconds. ", CVAR_FLAGS);
-	CloudRadius 			= CreateConVar("l4d_cloud_damage_radius", 		"150", 									" Radius of gas cloud damage ", CVAR_FLAGS);
-	SoundPath 				= CreateConVar("l4d_cloud_damage_sound", 		"player/survivor/voice/choke_5.wav", 	"Path to the Soundfile being played on each damaging Interval", CVAR_FLAGS);
-	CloudMeleeSlowEnabled 	= CreateConVar("l4d_cloud_meleeslow_enabled", 	"0", 									" Enable/Disable the Cloud Melee Slow Effect ", CVAR_FLAGS);
-	DisplayDamageMessage 	= CreateConVar("l4d_cloud_message_enabled", 	"0", 									" 0 - Disabled; 1 - small HUD Hint; 2 - big HUD Hint; 3 - Chat Notification ", CVAR_FLAGS);
-	CloudShake 				= CreateConVar("l4d_cloud_shake_enabled", 		"0", 									" Enable/Disable the Cloud Damage Shake ", CVAR_FLAGS);
-	CloudBlocksRevive 		= CreateConVar("l4d_cloud_blocks_revive", 		"0", 									" Enable/Disable the Cloud Damage Stopping Reviving ", CVAR_FLAGS);
-	
+	CloudEnabled 			= CreateConVar("l4d_cloud_damage_enabled", 		"1",	" Enable/Disable the Cloud Damage plugin ", CVAR_FLAGS);
+	CloudDamage 			= CreateConVar("l4d_cloud_damage_damage", 		"2.5",	" Amount of damage the cloud deals each time", CVAR_FLAGS, true, 0.0, true, 10.0);
+	CloudDamageFrequency 	= CreateConVar("l4d_cloud_damage_frequency", 	"20",	" Frequency cloud damage occurs. (Ex. Duration 10s / Freq 20 = 2 per second.)", CVAR_FLAGS, true, 2.0, true, 100.0);
+	CloudDuration 			= CreateConVar("l4d_cloud_damage_time", 		"10.0",	" How long the cloud damage persists in seconds. ", CVAR_FLAGS, true, 0.0, true, 20.0);
+	CloudRadius 			= CreateConVar("l4d_cloud_damage_radius", 		"150",	" Radius of gas cloud damage ", CVAR_FLAGS, true, 50.0, true, 250.0);
+	CloudShake 				= CreateConVar("l4d_cloud_shake_enabled", 		"0",	" Enable/Disable the Cloud Damage Shake ", CVAR_FLAGS);
+	CloudBlocksRevive 		= CreateConVar("l4d_cloud_blocks_revive", 		"0",	" Enable/Disable the Cloud Damage Stopping Reviving ", CVAR_FLAGS);
+	CloudMeleeSlowEnabled 	= CreateConVar("l4d_cloud_meleeslow_enabled", 	"0",	" Enable/Disable the Cloud Melee Slow Effect ", CVAR_FLAGS);
+	DisplayDamageMessage 	= CreateConVar("l4d_cloud_message_enabled", 	"0",	" 0 - Disabled; 1 - small HUD Hint; 2 - big HUD Hint; 3 - Chat Notification ", CVAR_FLAGS);
+
 	cvarGameModeActive		= CreateConVar("l4d_cloud_gamemodesactive", 	"coop, versus, teamversus, realism", 	" Set the gamemodes for which the plugin should be activated (same usage as sv_gametypes, i.e. add all game modes where you want it active separated by comma) ", CVAR_FLAGS);
+	SoundPath 				= CreateConVar("l4d_cloud_damage_sound", 		"player/survivor/voice/choke_5.wav", 	"Path to the Soundfile being played on each damaging Interval", CVAR_FLAGS);
 	
 	HookConVarChange(FindConVar("mp_gamemode"), GameModeChanged);
 	CheckGamemode();
@@ -161,7 +163,9 @@ static void CreateGasCloud(int client, float g_pos[3])
 	WritePackFloat(data, g_pos[2]);
 	WritePackFloat(data, targettime);
 	
-	CreateTimer(0.5, Point_Hurt, data, TIMER_REPEAT);
+	int dur = GetConVarInt(CloudDuration);
+	int freq = GetConVarInt(CloudDamageFrequency);
+	CreateTimer(float(dur) / float(freq), Point_Hurt, data, TIMER_REPEAT);
 }
 
 public Action PlayerTeam(Handle event, const char[] name, bool dontBroadcast)
