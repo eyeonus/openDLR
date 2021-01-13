@@ -950,6 +950,10 @@ void LoadEquipmentAll() //FOR MISSION LOST
 #define model_weapon_melee_katana  "models/weapons/melee/w_katana.mdl"
 #define model_weapon_melee_tonfa  "models/weapons/melee/w_tonfa.mdl"
 #define model_weapon_melee_riotshield  "models/weapons/melee/w_riotshield.mdl"
+#define model_weapon_melee_hunting_knife  "models/w_models/weapons/w_knife_t.mdl"
+#define model_weapon_melee_knife  "models/weapons/melee/w_knife.mdl"
+#define model_weapon_melee_pitchfork  "models/weapons/melee/w_pitchfork.mdl"
+#define model_weapon_melee_shovel  "models/weapons/melee/w_shovel.mdl"
 #define model_weapon_molotov "models/w_models/weapons/w_eq_molotov.mdl"
 #define model_weapon_pipe_bomb "models/w_models/weapons/w_eq_pipebomb.mdl"
 #define model_weapon_vomitjar "models/w_models/weapons/w_eq_bile_flask.mdl"
@@ -1004,6 +1008,10 @@ int GetModelFromClass_l4d2(char[] weapon, char model[LEN64], int slot = 0)
 			else if(StrEqual(weapon, "weapon_melee_katana"))strcopy(model, LEN64, model_weapon_melee_katana);
 			else if(StrEqual(weapon, "weapon_melee_tonfa"))strcopy(model, LEN64, model_weapon_melee_tonfa);
 			else if(StrEqual(weapon, "weapon_melee_riotshield"))strcopy(model, LEN64, model_weapon_melee_riotshield);
+			else if (StrEqual(weapon, "weapon_melee_hunting_knife"))strcopy(model, LEN64, model_weapon_melee_hunting_knife);
+			else if (StrEqual(weapon, "weapon_melee_knife"))strcopy(model, LEN64, model_weapon_melee_knife);
+			else if (StrEqual(weapon, "weapon_melee_pitchfork"))strcopy(model, LEN64, model_weapon_melee_pitchfork);
+			else if (StrEqual(weapon, "weapon_melee_shovel"))strcopy(model, LEN64, model_weapon_melee_shovel);
 			else model="";
 		}
 		case 2:
@@ -1110,6 +1118,10 @@ int GetItemClass(int ent, char classname[LEN64])
 			else if(StrContains(model, "katana")>=0)classname="weapon_melee_katana";
 			else if(StrContains(model, "tonfa")>=0)classname="weapon_melee_tonfa";
 			else if(StrContains(model, "riotshield")>=0)classname="weapon_melee_riotshield";
+			else if(StrContains(model, "hunting_knife")>=0)classname="weapon_melee_hunting_knife";
+			else if(StrContains(model, "knife")>=0)classname="weapon_melee_knife";
+			else if(StrContains(model, "pitchfork")>=0)classname="weapon_melee_pitchfork";
+			else if(StrContains(model, "shovel")>=0)classname="weapon_melee_shovel";
 			else classname="";
 		}
 	}
@@ -1141,7 +1153,11 @@ int CreateWeaponEnt(char[] classname)
 		else if(StrEqual(classname, "weapon_melee_katana"))DispatchKeyValue( ent, "melee_script_name", "katana");
 		else if(StrEqual(classname, "weapon_melee_tonfa"))DispatchKeyValue( ent, "melee_script_name", "tonfa");
 		else if(StrEqual(classname, "weapon_melee_riotshield"))DispatchKeyValue( ent, "melee_script_name", "riotshield");
-
+		else if(StrEqual(classname, "weapon_melee_hunting_knife"))DispatchKeyValue( ent, "melee_script_name", "hunting_knife" );
+		else if(StrEqual(classname, "weapon_melee_knife"))DispatchKeyValue( ent, "melee_script_name", "knife" );
+		else if(StrEqual(classname, "weapon_melee_pitchfork"))DispatchKeyValue( ent, "melee_script_name", "pitchfork" );
+		else if(StrEqual(classname, "weapon_melee_shovel"))DispatchKeyValue( ent, "melee_script_name", "shovel" );
+		
 		DispatchSpawn(ent);
 		return ent;
 	}
@@ -1184,6 +1200,9 @@ public void OnMapStart()
 		PrecacheModel(model_weapon_melee_katana);
 		PrecacheModel(model_weapon_melee_tonfa);
 		PrecacheModel(model_weapon_melee_riotshield);
+		PrecacheModel(model_weapon_melee_knife);
+		PrecacheModel(model_weapon_melee_pitchfork);
+		PrecacheModel(model_weapon_melee_shovel);
 		
 		PrecacheModel(model_weapon_molotov);
 		PrecacheModel(model_weapon_pipe_bomb);
