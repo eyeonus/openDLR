@@ -204,3 +204,4 @@ addons/sourcemod/translations/sqladmins.phrases.txt
 cfg/sourcemod/sm_warmode_off.cfg
 cfg/sourcemod/sm_warmode_on.cfg
 cfg/sourcemod/sourcemod.cfg
+*compile.dat
